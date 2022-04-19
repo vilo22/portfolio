@@ -1,0 +1,170 @@
+body, html{
+    height: 100%;
+    margin:0px;
+}
+
+body{
+
+
+    background-color:rgb(3, 95, 90);
+}
+nav li{
+    display: inline;
+    margin:20px
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width:100%;
+    padding: 20px
+}
+
+nav{
+    display:block;
+    color:aliceblue
+}
+
+nav a{
+    color:rgb(175, 118, 44);
+    text-decoration: none;
+}
+nav ul li {
+    display: inline-block;
+  }
+nav ul li a {
+    display: block;
+    padding: 1px;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 80;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  nav ul li a:hover {
+    color: rgb(88, 215, 194);
+  }
+
+.heroe-image{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .3)), url("../images/graduation.jpg");
+    height:100%;
+    background-repeat:no-repeat;
+    position:relative;
+  
+  
+}
+.heroe-text{
+
+    color:white;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left:80%;
+    transform: translate(-50%, -50%)
+    
+}
+
+span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  font-size:60px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #5ac6ca,
+						20px 20px #000000;
+}
+
+#main{
+    width:66%;
+    float:left
+}
+
+#side{
+    width:20%;
+    float:right;
+    height:100%;
+    padding:20px;
+}
+
+#profile-image{
+    width: 200px;
+    border-radius:10% ;
+    border: 5px solid rgb(2, 66, 65)
+}
+#profile{
+    text-align:center;
+}
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+#profile h2{
+    display:inline;
+
+}
+#profile-details{
+    margin-right:30px;
+    text-align: center;
+}
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+
+.side-articles{
+    background-color: darkgrey;
+    text-align: center;
+}
+
+.main-articles{
+    background-color: lightgrey;
+}
+
+form{
+    margin-top: 20px;
+}
+textarea, input{
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin:5px;
+    }
+
+.side-articles hi{
+    margin-bottom: 20px;
+}
+
+footer{
+    width:100%;
+    background-color: lightslategray;
+    height: 5vh;
+    margin-top: 0px;
+
+}
+footer div{
+    text-align: center;
+    color:white
+}
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border:0px;
+    box-shadow:inset 0 10px 10px -10px white
+}
