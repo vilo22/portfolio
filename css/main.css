@@ -9,38 +9,44 @@ body{
     background-color:rgb(3, 95, 90);
 }
 nav li{
+
     display: inline;
-    margin:20px
+    margin:0px
 }
 
 nav ul{
+    
     background-color: black;
     margin: 0;
     list-style-type: none;
     width:100%;
-    padding: 20px
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px;
 }
+
 
 nav{
     display:block;
-    color:aliceblue
+    color:aliceblue;
 }
+
+
 
 nav a{
     color:rgb(175, 118, 44);
     text-decoration: none;
 }
+
 nav ul li {
-    display: inline-block;
+    display: inline-flex;
   }
 nav ul li a {
-    display: block;
-    padding: 1px;
     text-decoration: none;
     color: #aaa;
     font-weight: 80;
     text-transform: uppercase;
-    margin: 0 10px;
+    margin: 0 100px;
   }
   nav ul li a,
   nav ul li a:after,
@@ -56,9 +62,8 @@ nav ul li a {
     height:100%;
     background-repeat:no-repeat;
     position:relative;
-  
-  
 }
+
 .heroe-text{
 
     color:white;
@@ -86,38 +91,35 @@ span{
 }
 
 #main{
+    margin-top: 20px;
     width:66%;
     float:left
 }
 
 #side{
+    display: flex;
+    justify-content: space;
+    align-items: space-around;
     width:20%;
-    float:right;
     height:100%;
-    padding:20px;
+    padding: 20px;
 }
+  
 
 #profile-image{
+    justify-content: flex-end;
     width: 200px;
     border-radius:10% ;
     border: 5px solid rgb(2, 66, 65)
 }
-#profile{
-    text-align:center;
-}
+
+
 .side-articles ul{
     list-style-type: none;
     padding-left: 10px;
 }
 
-#profile h2{
-    display:inline;
 
-}
-#profile-details{
-    margin-right:30px;
-    text-align: center;
-}
 .side-articles, .main-articles{
     padding: 10px;
     margin-bottom: 10px;
@@ -125,6 +127,8 @@ span{
 }
 
 .side-articles{
+    
+    align-items: flex-start;
     background-color: darkgrey;
     text-align: center;
 }
@@ -133,8 +137,10 @@ span{
     background-color: lightgrey;
 }
 
-form{
+.form{
+    align-items: flex-end;
     margin-top: 20px;
+
 }
 textarea, input{
     background-color: lightgrey;
@@ -143,9 +149,7 @@ textarea, input{
     margin:5px;
     }
 
-.side-articles hi{
-    margin-bottom: 20px;
-}
+
 
 footer{
     width:100%;
@@ -167,4 +171,8 @@ footer hr{
     height: 12px;
     border:0px;
     box-shadow:inset 0 10px 10px -10px white
+}
+
+#bigtech-pics{
+    width: 20px;
 }
